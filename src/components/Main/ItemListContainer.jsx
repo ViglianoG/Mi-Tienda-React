@@ -11,8 +11,10 @@ function ItemListContainer() {
   const { category } = useParams();
 
   useEffect(() => {
-    const collectionProd = collection(dataBase, 'products');
-    const ref = category ? query(collectionProd, where('category', '==', category)): collectionProd
+    const collectionProd = collection(dataBase, "products");
+    const ref = category
+      ? query(collectionProd, where("category", "==", category))
+      : collectionProd;
 
     // const q = query(collectionProd, where('category', '==', category));
 
@@ -38,13 +40,12 @@ function ItemListContainer() {
   if (loading) {
     return (
       <div className="loading-container">
-        <div>
-          <h2>Cargando...</h2>
-          <svg>
-            <rect x="0" y="0" fill="none"></rect>
-          </svg>
-        </div>
+      <div className="loading">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
+    </div>
     );
   }
 

@@ -30,10 +30,11 @@ function ItemDetailContainer() {
   if (loading) {
     return (
       <div className="loading-container">
-        <h2>Cargando...</h2>
-        <svg>
-          <rect x="0" y="0" fill="none"></rect>
-        </svg>
+        <div className="loading">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     );
   }
