@@ -4,6 +4,10 @@
 
 Proyecto base de un e-comerce para aprender las bases de React - Coderhouse.
 
+# Deploy
+
+-   [Sitio en netlify - Click Aqui](https://mi-tienda-react.netlify.app)
+
 ## Librerías utilizadas
 
 -   [Firebase](https://firebase.google.com/)  
@@ -11,6 +15,10 @@ Proyecto base de un e-comerce para aprender las bases de React - Coderhouse.
 
 -   [React-router-dom](https://github.com/remix-run/react-router)
     Utilizada para navegar entre las distintas rutas del sitio como por ejemplo "/" para ir al home, "/category/electronics" para ir a la category de electrónicos, etc.
+
+-   [Font Awesome](https://fontawesome.com/)
+    Libreria de de iconos.
+
 
 ## Funcionalidades del proyecto
 
