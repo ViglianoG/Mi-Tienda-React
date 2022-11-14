@@ -356,7 +356,7 @@ main {
 }
 
 /*     FORM     */
-.form {
+.form-container {
   background-color: var(--background-color-opacity);
   border: solid 2px black;
   border-radius: 5px;
@@ -368,7 +368,7 @@ main {
   margin-top: 2%;
 }
 
-.form input {
+.form-container input {
   width: 90%;
   height: 15%;
   margin: 10px;
